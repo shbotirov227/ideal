@@ -1,0 +1,14 @@
+.ServicesCard {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    &-item-title {
+        width: 75%;
+        color: #8caac8;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 28px;
+        margin-top: 20px;
+    }
+}

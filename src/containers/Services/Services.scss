@@ -1,0 +1,58 @@
+.Services {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 100px;
+
+    .main-title {
+        width: 40%;
+        display: inline-block;
+    }
+
+    &-items {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &-text {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 28px;
+        text-align: center;
+        margin: 25px 0 40px 0;
+        color: #8CAAC8;
+    }
+
+    &-contact {
+        position: relative;
+        margin: 0 auto;
+        width: 35%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    &-input {
+        font-size: 16px;
+        font-weight: 300;
+        font-style: italic;
+        line-height: 30px;
+        border: 1px solid #385980;
+        padding: 15px 40px 15px 15px;
+        outline: none;
+        background-color: transparent;
+        color: #FFF;
+    }
+
+    &-btn {
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 30px;
+        padding: 15px 40px;
+        background-color: #2B8CFC;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+    }
+
+}

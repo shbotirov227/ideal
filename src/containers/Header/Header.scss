@@ -1,0 +1,36 @@
+.Header {
+    padding: 40px 0;
+    // &-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    // }
+    
+    &-link {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 28px;
+        color: #FFFFFF;
+        padding: 25px;
+        transition: all ease 0.4s;
+
+        &.outlined {
+            color: #E7B894;
+            border: 1.5px solid #E7B894;
+            padding: 10px 20px;
+            border-radius: 30px;
+            font-size: 20px;
+            box-sizing: border-box;
+
+            &:hover {
+                color: #FFF;
+                border: 1.5px solid #fff;
+            }
+        }
+
+        &:hover {
+            color: #E7B894;
+        }
+    }
+}

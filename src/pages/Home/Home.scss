@@ -1,0 +1,27 @@
+.Home {
+
+    &-text {
+        font-size: 16px;
+        color: #8CAAC8;
+    }
+
+    .heroSection {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-left {
+            width: 48%;
+        }
+
+        &-right {
+            width: 48%;
+        }
+
+        &-types {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    }
+}
